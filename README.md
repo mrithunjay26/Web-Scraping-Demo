@@ -10,12 +10,32 @@ This project demonstrates a web scraping workflow using Scrapy to extract quotes
 - pymongo
 - MongoDB
 
+*Install Python packages and dependencies:**
+
+    - Scrapy:
+        ```bash
+        pip install scrapy
+        ```
+
+    - Flask:
+        ```bash
+        pip install flask
+        ```
+
+    - pymongo (MongoDB driver for Python):
+        ```bash
+        pip install pymongo
+        ```
+
+    - MongoDB: Follow the official installation guide for [MongoDB](https://docs.mongodb.com/manual/installation/) and set up a MongoDB server.
+
 **Getting Started:**
 1. **Clone the repository to your local machine:**
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone <https://github.com/mrithunjay26/Web-Scraping-Demo.git>
+    cd <quotes_scraper>
     ```
+
 
 2. **Set up a MongoDB database and collection for storing the scraped data. Modify the MongoDB configuration in `app.py` with your MongoDB server details.**
 
