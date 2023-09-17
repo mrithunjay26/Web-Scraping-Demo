@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class YoutubeSearchPipeline:
+class QuotesScraperPipeline:
     def process_item(self, item, spider):
         return item
